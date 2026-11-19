@@ -1,0 +1,780 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VISIONS | Creative Gallery</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+<script>
+    document.body.classList.toggle("dark", localStorage.getItem("theme") === "dark");
+</script>
+
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+<div class="grain"></div>
+
+<!-- HEADER -->
+<header class="header">
+
+    <a href="../Main/index.html" target="siteContent" class="logo">V<span>.</span></a>
+
+    <div class="header-right">
+
+        <a href="../Main/index.html" target="siteContent" class="home-button">
+            ← Back to Home
+        </a>
+
+        <div class="theme-control">
+            <span id="lightLabel" class="selected">LIGHT</span>
+
+            <button class="theme-toggle" id="themeToggle"
+                    aria-label="Switch to dark mode">
+                <span class="toggle-circle"></span>
+            </button>
+
+            <span id="darkLabel">DARK</span>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- GALLERY HERO -->
+<section class="gallery-hero">
+
+    <p class="eyebrow">A COLLECTION OF CREATIVE EXPRESSIONS</p>
+
+    <h1>Visions <i>Collection</i></h1>
+
+    <p>
+       Welcome to my gallery, a space where I share the fruits of my creative journey!
+    </p>
+
+    <div class="hero-decoration">V.</div>
+
+    
+
+</section>
+
+<!-- GALLERY NAVIGATION -->
+<nav class="gallery-nav glass">
+
+    <a href="#traditional">Traditional Art</a>
+    <a href="#digital">Digital Art</a>
+    <a href="#animation">Animation</a>
+    <a href="#media">Media Art</a>
+    <a href="#music">Music</a>
+
+</nav>
+
+<!-- TRADITIONAL ART -->
+<section class="gallery-section" id="traditional">
+
+    <div class="section-heading">
+        <span>01 / TRADITIONAL MEDIUMS</span>
+    </div>
+
+    <div class="category-intro">
+        <h2>Traditional <i>Art</i></h2>
+        <p>
+            Art created through traditional materials, techniques, and experimentation.
+        </p>
+    </div>
+
+    <!-- PORTRAITS -->
+    <div class="subheading">
+        <h3>Portrait <i>Artworks</i></h3>
+    </div>
+
+    <div class="art-grid">
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait1.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 001</span>
+            </div>
+            <div class="art-details">
+                <h4>Modesty Sketch</h4>
+                <p>Graphite on Paper.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait2.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 002</span>
+            </div>
+            <div class="art-details">
+                <h4>Undine Rising from the Fountain</h4>
+                <p>Graphite on Paper.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait3.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 003</span>
+            </div>
+            <div class="art-details">
+                <h4>Statue Practice Sketch</h4>
+                <p>Graphite on Paper.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait4.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 004</span>
+            </div>
+            <div class="art-details">
+                <h4>Guard Dog</h4>
+                <p>Mixed Media on Canvas.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait5.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 005</span>
+            </div>
+            <div class="art-details">
+                <h4>Palong Manok</h4>
+                <p>Acrylic on Canvas.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait6.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 006</span>
+            </div>
+            <div class="art-details">
+                <h4>My Poor Dog</h4>
+                <p>Paper on Canvas.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="portrait7.png"
+                     alt="Traditional portrait artwork">
+                <span>PORTRAIT 007</span>
+            </div>
+            <div class="art-details">
+                <h4>Art Noveau Impression through Self Portrait</h4>
+                <p>Acrylic on Canvas.</p>
+            </div>
+        </article>
+
+    </div>
+
+    <!-- LANDSCAPES -->
+    <div class="subheading">
+        <h3>Landscape-set <i>Artworks</i></h3>
+    </div>
+
+    <div class="art-grid">
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="landscape1.png"
+                     alt="Traditional landscape artwork">
+                <span>LANDSCAPE 001</span>
+            </div>
+            <div class="art-details">
+                <h4>A Morning by the Riverbank</h4>
+                <p>Acrylic on Canvas.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="landscape2.png"
+                     alt="Traditional landscape artwork">
+                <span>LANDSCAPE 002</span>
+            </div>
+            <div class="art-details">
+                <h4>Nature's Dam</h4>
+                <p>Acrylic on Canvas.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="landscape3.png"
+                     alt="Traditional landscape artwork">
+                <span>LANDSCAPE 003</span>
+            </div>
+            <div class="art-details">
+                <h4>DSPC Cartooning Practice</h4>
+                <p>Graphite on Paper.</p>
+            </div>
+        </article>
+
+         <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="landscape4.png"
+                     alt="Traditional landscape artwork">
+                <span>LANDSCAPE 004</span>
+            </div>
+            <div class="art-details">
+                <h4>DSPC Cartooning Practice</h4>
+                <p>Graphite on Paper.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="landscape5.png"
+                     alt="Traditional landscape artwork">
+                <span>LANDSCAPE 005</span>
+            </div>
+            <div class="art-details">
+                <h4>Popee the Performer Pen Study</h4>
+                <p>Pen on Paper.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="landscape6.png"
+                     alt="Traditional landscape artwork">
+                <span>LANDSCAPE 006</span>
+            </div>
+            <div class="art-details">
+                <h4>Marble Statue Eye Study</h4>
+                <p>Graphite on Paper.</p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- DIGITAL ART -->
+<section class="gallery-section" id="digital">
+
+    <div class="section-heading">
+        <span>02 / DIGITAL MEDIUMS</span>
+    </div>
+
+    <div class="category-intro">
+        <h2>Digital <i>Art</i></h2>
+        <p>
+            Exploring creativity through digital tools.
+        </p>
+    </div>
+
+    <div class="subheading">
+        <h3>Portrait <i>Artworks</i></h3>
+    </div>
+
+    <div class="art-grid">
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="digitalp1.png"
+                     alt="Digital portrait">
+                <span>DIGITAL 001</span>
+            </div>
+            <div class="art-details">
+                <h4>Own Character Art</h4>
+                <p>Character design sheet.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="digitalp2.png"
+                     alt="Digital portrait">
+                <span>DIGITAL 002</span>
+            </div>
+            <div class="art-details">
+                <h4>Own Character Art 2</h4>
+                <p>Character design sheet.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="digitalp3.png"
+                     alt="Digital portrait">
+                <span>DIGITAL 003</span>
+            </div>
+            <div class="art-details">
+                <h4>Own Character Art 3</h4>
+                <p>Character design test sheet.</p>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="subheading">
+        <h3>Landscape-set <i>Artworks</i></h3>
+    </div>
+
+    <div class="art-grid">
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="digitall1.png"
+                     alt="Digital landscape">
+                <span>LANDSCAPE 001</span>
+            </div>
+            <div class="art-details">
+                <h4>Artwork Title</h4>
+                <p>A digitally illustrated environment.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image landscape">
+                <img src="digitall2.png"
+                     alt="Digital landscape">
+                <span>LANDSCAPE 002</span>
+            </div>
+            <div class="art-details">
+                <h4>Artwork Title</h4>
+                <p>Exploring digital scenery.</p>
+            </div>
+        </article>
+
+
+
+    </div>
+
+</section>
+
+<!-- ANIMATION -->
+<section class="gallery-section" id="animation">
+
+    <div class="section-heading">
+        <span>03 / MOVING VISIONS</span>
+    </div>
+
+    <div class="category-intro">
+        <h2>Motion & <i>Animation</i></h2>
+        <p>
+            A collection of animated creations.
+        </p>
+    </div>
+
+    <div class="video-grid">
+
+        <article class="video-card glass">
+
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="animation1.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="art-details">
+                <span class="eyebrow">ANIMATION 001</span>
+                <h4>Aphantasia?</h4>
+                <p>Understanding Struggles Through Art.</p>
+            </div>
+
+        </article>
+
+        <article class="video-card glass">
+
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="animation2.mp4" type="video/mp4">
+                    Your browser does not support video playback.
+                </video>
+            </div>
+
+            <div class="art-details">
+                <span class="eyebrow">ANIMATION 002</span>
+                <h4>Anti-suicice Graphic</h4>
+                <p>Motion graphics exploring mental health themes.</p>
+            </div>
+
+        </article>
+
+    </div>
+
+    <p class="media-note">
+        <span>✦</span> Use the video controls to play, pause,
+        adjust the volume, and view the animations.
+    </p>
+
+</section>
+
+<!-- MEDIA ART -->
+<section class="gallery-section" id="media">
+
+    <div class="section-heading">
+        <span>04 / VISUAL STORYTELLING</span>
+    </div>
+
+    <div class="category-intro">
+        <h2>Media <i>Arts</i></h2>
+        <p>
+            A collection of photography,
+            cinematography, and graphic design.
+        </p>
+    </div>
+
+    <!-- PHOTOGRAPHY -->
+    <div class="subheading">
+        <h3>Photography <i>Works</i></h3>
+    </div>
+
+    <div class="art-grid">
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="photo1.png" alt="Photography work">
+                <span>PHOTO 001</span>
+            </div>
+            <div class="art-details">
+                <h4>Photograph Title</h4>
+                <p>A moment captured through my lens.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="photo2.png" alt="Photography work">
+                <span>PHOTO 002</span>
+            </div>
+            <div class="art-details">
+                <h4>Photograph Title</h4>
+                <p>A glimpse into my perspective.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="photo3.png" alt="Photography work">
+                <span>PHOTO 003</span>
+            </div>
+            <div class="art-details">
+                <h4>Photograph Title</h4>
+                <p>Finding beauty in everyday details.</p>
+            </div>
+        </article>
+
+    </div>
+
+    <!-- VIDEO EDITING -->
+    <div class="subheading">
+        <h3>Video Editing/Film Making <i>Works</i></h3>
+    </div>
+
+    <div class="video-grid">
+
+        <article class="video-card glass">
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="film1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="art-details">
+                <span class="eyebrow">WORK 001</span>
+                <h4>Waves of Expression F-walk Intro</h4>
+                <p>A visual hook for the fashionwalk, introducing the theme of art movements.</p>
+            </div>
+        </article>
+
+        <article class="video-card glass">
+            <div class="video-wrapper">
+                <video controls preload="metadata">
+                    <source src="film2.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="art-details">
+                <span class="eyebrow">WORK 002</span>
+                <h4>Deepfake - Film Teaser</h4>
+                <p>Teaser for the 'Deepfake' film project.</p>
+            </div>
+        </article>
+
+    </div>
+
+    <!-- GRAPHIC DESIGN -->
+    <div class="subheading">
+        <h3>Graphic <i>Design</i></h3>
+    </div>
+
+    <div class="art-grid">
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="design1.png" alt="Graphic design work">
+                <span>DESIGN 001</span>
+            </div>
+            <div class="art-details">
+                <h4>Magazine Layout</h4>
+                <p>Magazine assignment.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="design2.png" alt="Graphic design work">
+                <span>DESIGN 002</span>
+            </div>
+            <div class="art-details">
+                <h4>Layout Design Test</h4>
+                <p>Graphic design assignment.</p>
+            </div>
+        </article>
+
+        <article class="art-card glass">
+            <div class="art-image">
+                <img src="design3.png" alt="Graphic design work">
+                <span>DESIGN 003</span>
+            </div>
+            <div class="art-details">
+                <h4>YD Snacks</h4>
+                <p>Logo design.</p>
+            </div>
+        </article>
+
+    </div>
+
+</section>
+
+<!-- MUSIC -->
+<section class="gallery-section" id="music">
+
+    <div class="section-heading">
+        <span>05 / MUSIC & EXPRESSIONS</span>
+    </div>
+
+    <div class="category-intro">
+        <h2>Sounds of <i>Visions</i></h2>
+        <p>
+            A little collection of covers,
+            snippets, and compositions.
+        </p>
+    </div>
+
+    <div class="music-list">
+
+        <article class="music-card glass">
+
+            <div class="music-cover">♫</div>
+
+            <div class="music-info">
+                <span class="eyebrow">TRACK 001</span>
+                <h3>How to Pretend - Cover Snippet</h3>
+                <p>Original Artist: Lucy Bedroque</p>
+                <p>Cover by Denise Ortaliz</p>
+
+                <audio controls preload="metadata">
+                    <source src="song1.mp3" type="audio/mpeg">
+                    Your browser does not support audio playback.
+                </audio>
+            </div>
+
+        </article>
+
+        <article class="music-card glass">
+
+            <div class="music-cover">♪</div>
+
+            <div class="music-info">
+                <span class="eyebrow">TRACK 002</span>
+                <h3>The Weekend - Cover Snippet</h3>
+                <p>Original Artists: Raye & Stormzy </p>
+                <p>Cover by Denise Ortaliz</p>
+
+                <audio controls preload="metadata">
+                    <source src="song2.mp3" type="audio/mpeg">
+                    Your browser does not support audio playback.
+                </audio>
+            </div>
+
+        </article>
+
+        <article class="music-card glass">
+
+            <div class="music-cover">♬</div>
+
+            <div class="music-info">
+                <span class="eyebrow">TRACK 003</span>
+                <h3>Chronos - Full Cover</h3>
+                <p>Original Artist: Cepheid</p>
+                 <p>Cover by Denise Ortaliz</p>
+
+                <audio controls preload="metadata">
+                    <source src="song3.mp3" type="audio/mpeg">
+                    Your browser does not support audio playback.
+                </audio>
+            </div>
+
+        </article>
+
+        <article class="music-card glass">
+
+            <div class="music-cover">♫</div>
+
+            <div class="music-info">
+                <span class="eyebrow">TRACK 004</span>
+                <h3>The Boy is Mine - Full Cover</h3>
+                <p>Original Artist: Brandy & Monica</p>
+                <p>Cover by Denise Ortaliz & Yleonda Espina</p>
+
+                <audio controls preload="metadata">
+                    <source src="song4.mp3" type="audio/mpeg">
+                    Your browser does not support audio playback.
+                </audio>
+            </div>
+
+        </article>
+
+         <article class="music-card glass">
+
+            <div class="music-cover">♪</div>
+
+            <div class="music-info">
+                <span class="eyebrow">TRACK 005</span>
+                <h3>Beat Test - Snippet</h3>
+                <p>Composed by Denise Ortaliz</p>
+
+                <audio controls preload="metadata">
+                    <source src="song5.mp3" type="audio/mpeg">
+                    Your browser does not support audio playback.
+                </audio>
+            </div>
+
+        </article>
+
+
+    </div>
+
+    <p class="media-note">
+        <span>✦</span> Select a song to play or pause.
+        Only one track will play at a time.
+    </p>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-logo">VISIONS<span>.</span></div>
+
+    <p>Every medium. Every story. Every vision.</p>
+
+    <a href="../Main/index.html" target="siteContent" class="footer-home">
+        ← RETURN TO MAIN PAGE
+    </a>
+
+    <p class="copyright">
+        © 2026 VISIONS — DENISE ORTALIZ
+    </p>
+
+</footer>
+
+
+<!-- JAVASCRIPT -->
+<script>
+
+// =================================
+// LIGHT / DARK MODE
+// =================================
+
+const themeToggle = document.getElementById("themeToggle");
+const lightLabel = document.getElementById("lightLabel");
+const darkLabel = document.getElementById("darkLabel");
+
+function updateThemeLabels() {
+    const isDark = document.body.classList.contains("dark");
+    lightLabel.classList.toggle("selected", !isDark);
+    darkLabel.classList.toggle("selected", isDark);
+    themeToggle.setAttribute(
+        "aria-label",
+        isDark ? "Switch to light mode" : "Switch to dark mode"
+    );
+}
+
+updateThemeLabels();
+
+themeToggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    const isDark = document.body.classList.contains("dark");
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+    updateThemeLabels();
+});
+
+
+// =================================
+// ONLY ONE MUSIC TRACK AT A TIME
+// =================================
+
+const audioPlayers = document.querySelectorAll("audio");
+
+audioPlayers.forEach(player => {
+
+    player.addEventListener("play", () => {
+
+        audioPlayers.forEach(otherPlayer => {
+
+            if (otherPlayer !== player) {
+                otherPlayer.pause();
+            }
+
+        });
+
+    });
+
+});
+
+
+// =================================
+// SMOOTH NAVIGATION
+// =================================
+
+document.querySelectorAll(".gallery-nav a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        document.querySelectorAll(".gallery-nav a")
+            .forEach(item => item.classList.remove("active"));
+
+        link.classList.add("active");
+
+    });
+
+});
+
+</script>
+
+
+
+
+
+
+<script>
+// Ask the parent page to start its persistent background track after a user gesture.
+function requestBackgroundMusic() {
+    window.parent.postMessage("start-background-music", window.location.origin);
+}
+document.addEventListener("click", requestBackgroundMusic, { once: true });
+document.addEventListener("keydown", requestBackgroundMusic, { once: true });
+</script>
+
+</body>
+</html>
